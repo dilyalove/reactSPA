@@ -1,0 +1,45 @@
+@font-face {
+	font-family: OpenSansSemiBold;
+	src: url(/src/fonts/OpenSans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: AppetiteItalic;
+	src: url(/src/fonts/Appetite/appetite-italic.ttf);
+}
+
+@font-face {
+	font-family: OpenSansRegular;
+	src: url(/src/fonts/OpenSans/OpenSans-Regular.ttf);
+  }
+
+@font-face {
+	font-family: RobotoMedium;
+	src: url(/src/fonts/Roboto/Roboto-Medium.ttf);
+  }
+
+@font-face {
+	font-family: RobotoBold;
+	src: url(/src/fonts/Roboto/Roboto-Bold.ttf);
+  }
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.app-wrapper {
+	margin: 0 auto;
+	display: block;
+	min-height: 100vh;
+	/* background-image: linear-gradient(to right, #f9daee, #f1ade4, #df81e0, #c355e0, #9a25e5); */
+	background-image: linear-gradient(to right, #fd8355, #fc7b57, #fa735a, #f86b5d, #f56360, #f6646a, #f66774, #f5697d, #f7758e, #f8829f, #f88fae, #f79bbc);
+}
+
+.app-wrapper-content {
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+}
+

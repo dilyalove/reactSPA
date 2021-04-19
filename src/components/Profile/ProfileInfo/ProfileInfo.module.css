@@ -1,0 +1,119 @@
+.descriptionBlock {
+  display: block;
+  width: 70%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.photoBlock {
+  float: left;
+  width: 220px;
+}
+
+.photoBlock > img {
+  box-shadow: 0 0 10px #fff;
+  margin-bottom: 10px;
+}
+
+.profileDataBlock {
+  float: left;
+  width: 300px;
+  margin-left: 200px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #fff;
+}
+
+.mainFile {
+  background-color: red;
+}
+
+.mainPhoto {
+  max-width: 200px;
+}
+
+.asdas {
+  display: block;
+}
+
+.inputFile {
+  width: 0;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputFile + label {
+  background-color: none;
+  color: white;
+  font-family: OpenSansSemiBold;
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.inputFile + label:hover {
+  background-color: #fff;
+  color: #1F2021;
+  text-decoration: none;
+}
+
+.textMenu {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.7s ease-out;
+}
+
+.textMenu:first-child {
+  margin-top: 20px;
+}
+
+.profileValue {
+  color:#242424;
+  font-family: OpenSansSemiBold;
+  font-size: 15px;
+}
+
+.descriptionContacts {
+  color: #fff;
+  padding: 10px;
+}
+
+.buttonEditSave {
+  margin-bottom: 10px;
+  background: none;
+  color: white;
+  font-family: OpenSansSemiBold;
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.buttonEditSave:active {
+  outline: none;
+}
+
+.buttonEditSave:focus {
+  outline: none;
+}
+  
+.buttonEditSave:hover {
+  background-color: #fff;
+  color: #1F2021;
+  text-decoration: none;
+  box-shadow: 0 0 10px #E7E7E7;
+} 

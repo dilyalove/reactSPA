@@ -1,0 +1,33 @@
+.postsContent:first-child {
+  margin-top: 10px;
+}
+
+.postsContent {
+  background: #fff;
+  border: .25px #E7E6D5 solid;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px #fff;
+}
+
+.postsContent > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #151513;
+}
+
+.postsMessage {
+  margin-left: 5px;
+  color: #353531;
+  font-family: 'OpenSansSemiBold';
+  font-size: 15px;
+}
+
+.postsLikes {
+  width: 50px;
+  color: #353531;
+  font-family: 'OpenSansSemiBold';
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.logoHeader {
+    float: left;
+    /* text-shadow: 0px 0px 20px rgb(0 0 0 / 90%); */
+    text-shadow: 0px 0px 20px #fff;
+    display: block;
+    color:white;
+    font-size: 20px;
+    font-family: AppetiteItalic;
+    line-height: 17px;
+}
+
+.logoNameFirst {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    font-family: OpenSansSemiBold;
+    text-transform: uppercase;
+}
+
+.logoNameSecond {
+    display: block;
+    color:white;
+    font-size: 20px;
+    font-family: AppetiteItalic;
+    line-height: 17px;
+}
+
+.mainSidebar {
+    display: flex;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.titleSidebar:first-child {
+    margin-left: 0;
+}
+
+.titleSidebar {
+    float: left;
+    margin-left: 50px;
+}
+
+.titleSidebar > a:hover {
+    color: #242424;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #04CADC;
+    transition: width 0.5s ease-out;
+}
+
+/* .titleSidebar > a:active {
+    color: #04CADC;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #04CADC;
+    transition: width 0.5s ease-out;
+} */
+
+.titleSidebar > a {
+    color: #fff;
+    font-family: OpenSansSemiBold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.7s ease-out;
+}
+
+.titleSidebar:nth-child(5){
+    margin-top: 40px;
+}
+
+.logout {
+    margin-left: 10px;
+    background-color: #242424;
+    color: white;
+    font-family: OpenSansSemiBold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+.logout:hover {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #1F2021;
+    font-family: OpenSansSemiBold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px #242424;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}

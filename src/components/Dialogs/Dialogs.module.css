@@ -1,0 +1,49 @@
+.mainDialogs {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.dialogsElementsName {
+    float: left;
+    background-color: royalblue;
+    width: 120px;
+    padding: 10px;
+}
+
+.ASDAFSDA {
+    float: left;
+    background-color: salmon;
+    margin-left: 50px;
+}
+
+.messageForm {
+    display: block;
+    margin-top: 20px;
+}
+
+.popopopp {
+    display: block;
+    margin-top: 20px;
+}
+
+.dialogItem {
+    margin-top: 10px;
+}
+
+.dialogItem > a {
+    color:#fff;
+    text-decoration: none;
+    font-family: OpenSansSemiBold;
+    font-size: 17px;
+    /* transition: 0.2s ease-out; */
+}
+
+.dialogItem > a:hover {
+    color: #1E1E1E;
+    /* transition: 0.2s ease-out; */
+}
+
+.dialogItem > a:active {
+    color: red;
+}

@@ -1,0 +1,36 @@
+.postsBlock {
+    display: table;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.titlePosts {
+    color: #fff;
+    font-family: OpenSansSemiBold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: 0.7s ease-out;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.textarea:active {
+    outline: none;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea {
+    outline: none;
+    border: 2px solid #E7E7E7;
+    width: 400px;
+    min-height: 80px;
+    box-shadow: 0 0 5px #fff;
+    color: #353531;
+    font-family: 'OpenSansSemiBold';
+    font-size: 15px;
+}
